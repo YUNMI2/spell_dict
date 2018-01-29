@@ -5,6 +5,7 @@
 
 ## 数据介绍
 数据主要来自于[mozillazg/pinyin-data] (https://github.com/mozillazg/pinyin-data/)
+
 拼音数据的格式：
 
     {hanzi}: {pinyins}  
@@ -25,8 +26,9 @@
 * `nonCJKUI.txt`: 不属于 [CJK Unified Ideograph](https://en.wikipedia.org/wiki/CJK_Unified_Ideographs) 但是却有拼音的字符
 * `overwrite.txt`: 手工纠正的拼音数据（**上面的拼音数据都是通过程序生成的，修改的话只修改这个就可以了**）
 * `kMandarin_8105.txt`: [《通用规范汉字表》](https://zh.wikipedia.org/wiki/通用规范汉字表)里 8105 个汉字最常用的一个读音 (**可以修改**)
-* `pinyin.txt`: 合并上述文件后的拼音数据
+* `one_word_with_spell.txt`: 合并上述文件后的拼音数据
 * `zdic.txt`: [汉典网](http://zdic.net) 的拼音数据
+* `words_with_spell.txt` : 词语和对应的拼音数据
 
 
 ## 参考资料
